@@ -1,28 +1,102 @@
-/* Lesson 1 starter CSS file.
-   Add styles here in later lessons. */
-
 body {
-   margin: 0;
+
+    font-family: 'Playfair Display', Segoe UI, Geneva, Verdana, sans-serif;
+
+    background-color: #cbb178;
+
+    color: white;
+
+    margin: 0;
+
+    padding-top: 5vh;
+
 }
 
-header {
-   background-color: aqua;
-   border-bottom: 1px solid black;
+
+
+h1 {
+
+    margin-bottom: 20px;
+
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
+
+    text-align: center;
+
+    user-select: none;
+
 }
 
-header p {
-   margin: 0;
+
+
+.scacchiera {
+
+    width: 480px;
+
+    height: 480px;
+
+    margin: 0 auto;
+
+    border: 25px solid #ebe7ae;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+
 }
 
-nav {
-   border-bottom: 1px solid #dbe4f4;
+
+
+.s {
+
+    width: 60px;
+
+    height: 60px;
+
+    font-size: 40px;
+
+    float: left;
+
+   
+
+   
+
+    text-align: center;
+
+    line-height: 60px;  
+
+   
+
+    cursor: pointer;
+
+    user-select: none;
+
+    box-sizing: border-box;
+
 }
 
-a {
-   text-decoration: none;
+
+
+.white {
+
+    background-color: #cbb178;
+
+    color: #000000;
+
 }
 
-header,
-nav {
-   padding: 10px 0;
+
+
+.black {
+
+    background-color: #382503;
+
+    color: #ecf0f1;
+
+}
+
+
+
+.s:hover {
+
+    filter: brightness(1.2);
+
+    outline: 2px solid #2b7c0e;
 }
